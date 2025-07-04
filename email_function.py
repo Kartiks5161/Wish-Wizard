@@ -7,8 +7,8 @@ from plyer import notification #allows .py to access of the device
 
 def send_bday_emails():
     # Your Email And The App Password:
-    EMAIL="kartiksehra72@gmail.com"
-    APP_PASSWORD="xxjv yjuq kcov yukx"
+    EMAIL="Your_Email@gmail.com"
+    APP_PASSWORD="16 character app password" #From Google 2FA
 
     # Now We Need To Load The Data From The Birthday File:
     the_dates=pandas.read_csv("birthday.csv") #this gets the dates and time from the birthday file 
